@@ -1,0 +1,39 @@
+/* O seletor html aplica regras gerais para toda a página*/
+html {
+    font-size: 10px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
+    font-family: "Mukta", sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */
+    background-color: #75007962;
+  }
+
+/*Corpo da página*/
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #68003d5e;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+/*Elementos da página*/
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #ff9822;
+    text-shadow: 3px 2px 2px black;
+  }
+  
+p, li {
+    font-size: 16px;
+    line-height: 2;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+  }
+
